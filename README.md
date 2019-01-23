@@ -1,2 +1,0 @@
-# clickandcollect
-test
