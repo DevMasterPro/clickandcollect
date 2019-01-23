@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: clickandcollect
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: shahinahmed
+Implementation-Vendor-Id: click
+Build-Jdk: 1.8.0_151
+Implementation-URL: http://projects.spring.io/spring-boot/com.click/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+

@@ -1,0 +1,108 @@
+<%@ include file="header.jsp"%>
+<%@ include file="navigation.jsp"%>
+
+
+<div class="jumbotron text-center">
+  <h1>Register Buyer</h1>
+   
+</div>
+<!-- Container (Contact Section) -->
+<div class="container-fluid">
+    <div class="row">
+    
+<div id="contact" class="container-fluid bg-grey">
+
+  <div class="row ">
+    <div class="col-sm-7">
+      <div class="row ">
+
+         <form role="form" method="post" action="/userregister">
+
+          <div class="col-sm-6 form-group col-sm-push-5">
+          <font color="Red">${errorfname}</font>
+            <input class="form-control" id="fname" name="fname" placeholder="First Name" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group col-sm-push-5">
+                <font color="Red">${errorsname}</font>
+            <input class="form-control" id="sname" name="sname" placeholder="Surname" type="text" required>
+          </div>
+          <div class="col-sm-6 form-group col-sm-push-5"">
+              <font color="Red">${erroremail}</font>
+            <input class="form-control" id="email"  name="email" placeholder="Type in your Email" type="email" required>
+          </div>
+        <!-- password box -->
+          <div class="col-sm-6 form-group col-sm-push-5"">
+           <font color="Red">${errorpass}</font>
+              <input class="form-control"  name="pass" placeholder="Password" type="password" value="">
+          </div>
+          <div class="col-sm-6 form-group col-sm-push-5"">
+           <font color="Red">${errorphonenum}</font>
+            <input class="form-control" id="phonenum" name="phonenum" placeholder="Phone number" type="tel" required>
+          </div>
+      
+       <div class="col-sm-6 form-group col-sm-push-5"">
+                  <font color="Red">${errorcity}</font>
+            <input class="form-control" id="City" name="City" placeholder="City" type="tel" required>
+          </div>
+      
+  
+          
+           <div class="col-sm-6 form-group col-sm-push-5"">
+               <font color="Red">${erroradd1}</font>
+            <input class="form-control" id="Add1" name="Add1" placeholder="Address Line 1" type="tel" required>
+          </div>
+          
+          
+         
+          
+          
+          <div class="col-sm-6 form-group col-sm-push-5"">
+                    <font color="Red">${errorpostcode}</font>
+            <input class="form-control" id="postcode" name="postcode" placeholder="postcode" type="tel" required>
+          </div>
+          <div class="col-sm-6 form-group col-sm-push-5"">
+                  <font color="Red">${erroradd2}</font>
+            <input class="form-control" id="Add2" name="Add2" placeholder="Address Line 2" type="tel" required>
+          </div>
+          
+             
+      
+      <div class="row">
+        <div class="col-sm-12 form-group col-sm-push-5">
+         <font color="Red">${emailexists}</font>
+          <font color="Green">${succ}</font>
+        </div>
+      </div>
+      
+      
+      
+      
+      
+      
+      </div><br>
+      <div class="row">
+        <div class="col-sm-12 form-group col-sm-push-5">
+          <button class="btn btn-default pull-right tn-success " value="register" name="register" type="submit" >Register</button>
+        </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<br><br>
+
+  
+   </div>
+
+</div>
+
+
+
+
+<%@ include file="footer.jsp"%>
